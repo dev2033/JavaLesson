@@ -70,6 +70,27 @@ public class Main {
         }
         */
 
+        /*"""Массивы"""
+
+        // int[] name = new int[] {23, 45, 74};    // полная инициализация массива
+        // System.out.println(name[1]);
+
+        int [] a;
+        int n;
+        Scanner in = new Scanner(System.in);    // Создаем объект in класса Scanner
+        System.out.print("Enter numbers of array: ");
+        n = in.nextInt();                       // Присваиваем переменной n ввод данных от пользователя
+        a = new int [n];                        // В зависимости какое число ввел пользователь,
+                                                // в переменную a отводиться память под массив
+        // Далее через цикл мы просим у пользователя заполнить массив
+        for (int i = 0; i < n; i++) {
+            System.out.print("Enter a[" + i + "] = ");
+            a[i] = in.nextInt();
+        }
+            */
+
+        /*"""Многомерные массивы"""*/
+
 
 
 
