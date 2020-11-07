@@ -94,5 +94,18 @@ public class Main {
 //       float[] array = new float[] {2.3f, 123.423f, 43.43f, 12.323f};   // одномерный массив
 //       char[][] arr = new char[2][3];
 //       arr[0][0] = 'C';
+
+        /*
+        * Функции
+        * */
+//        int temp = func(3, 4);
+//        System.out.println(temp);
     }
+//    public static int func(int a, int b) {
+//        int result = 1;
+//        for(int i = 0; i < b; i++) {
+//            result *= a;
+//        }
+//        return result;
+//    }
 }
