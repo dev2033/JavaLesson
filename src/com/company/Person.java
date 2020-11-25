@@ -9,8 +9,4 @@ public class Person {
         firstName = FirstName;
         secondName = SecondName;
     }
-
-    public void say(String name){
-        System.out.println("Hello " + name);
-    }
 }
