@@ -34,6 +34,14 @@ public class Main {
 //        };
 //    }
 
+    /*
+    * Абстрактные классы
+    * */
+//    public static void main(String[] args) {
+//        AbstractShape circle = new AbsExstCircle();
+//        circle.draw();
+//    }
+
 
     public static void main(String[] args) {
 
