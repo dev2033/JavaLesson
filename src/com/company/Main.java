@@ -91,8 +91,7 @@ public class Main {
 
         /*"""Многомерные массивы"""*/
 
-
-
-
+           int[][] array = new int[][] {{1, 3, 4}, {1, 2, 41, 12}};
+           System.out.println(array[0][0]);
     }
 }
