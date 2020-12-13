@@ -1,8 +1,9 @@
 package com.company;
+import java.util.Scanner;
 
-public class Main {
 
-<<<<<<< HEAD
+public class Lesson {
+
     public static void main(String[] args) {
 	    /*"""Scanner - получение данных от пользователя"""
 	    * """Математические операции"""
@@ -90,53 +91,22 @@ public class Main {
             */
 
         /*"""Многомерные массивы"""*/
+        // грубо говоря, многомерный массив - это массив в массиве.
+//       float[] array = new float[] {2.3f, 123.423f, 43.43f, 12.323f};   // одномерный массив
+//       char[][] arr = new char[2][3];
+//       arr[0][0] = 'C';
 
-           int[][] array = new int[][] {{1, 3, 4}, {1, 2, 41, 12}};
-           System.out.println(array[0][0]);
-=======
-//    public static void main(String[] args){
-    /*
-     * Наследования + конструкторы*/
-//        Student Vasya = new Student("Василий", "Рачковский" );
-//        Vasya.tell();
-
-    /*
-     * Полиморфизм*/
-//        Shape[] arr = new Shape[] {new Circle(), new Triangle(), new Square()};
-//        for (int i = 0; i < arr.length; i++){
-//            arr[i].draw();
-//        }
-
-
-//    }
-
-//    public static void main(String[] args) {
-//        /*
-//        * Анонимные классы и вложенные классы*/
-//        Computer comp = new Computer();
-//        comp.i7.start();
-//        comp.samsung.start();
-//        comp.samsung.shutDown();
-//
-//        new Computer(){
-//            void superPC () {
-//                this.i7.start();
-//                this.samsung.shutDown();
-//            }
-//        };
-//    }
-
-    /*
-    * Абстрактные классы
-    * */
-//    public static void main(String[] args) {
-//        AbstractShape circle = new AbsExstCircle();
-//        circle.draw();
-//    }
-
-
-    public static void main(String[] args) {
-
->>>>>>> ebb8ecafd0c6e096874b6ec8db17dfbc6a25b983
+        /*
+         * Функции
+         * */
+//        int temp = func(3, 4);
+//        System.out.println(temp);
     }
+//    public static int func(int a, int b) {
+//        int result = 1;
+//        for(int i = 0; i < b; i++) {
+//            result *= a;
+//        }
+//        return result;
+//    }
 }
